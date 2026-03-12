@@ -35,6 +35,7 @@
   "homepage": "https://github.com/camdencheek/tree-sitter-gomod#readme",
   "dependencies": {
     "node-addon-api": "^8.0.0",
+    "node-gyp": "^12.2.0",
     "node-gyp-build": "^4.8.1"
   },
   "peerDependencies": {
@@ -46,7 +47,7 @@
     }
   },
   "devDependencies": {
-    "tree-sitter-cli": "^0.24.0",
-    "prebuildify": "^6.0.1"
+    "prebuildify": "^6.0.1",
+    "tree-sitter-cli": "^0.26.6"
   }
 }
